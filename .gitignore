@@ -218,3 +218,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Secrets & credentials
+*.pem
+*.key
+secrets/
+config/local*
+*_credentials.json
+
+# Security scan outputs & logs
+reports/
+scan_results/
+*.log
